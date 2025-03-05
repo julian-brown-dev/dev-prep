@@ -6,11 +6,11 @@ This project is a personalized, interactive study plan webpage built with React.
 
 ## Features
 
-* **Interactive and Organized:** The study plan is broken down into months, weeks, and days, with collapsible sections for easy navigation.
-* **Task Management:** Each day includes a list of study items and practice tasks. You can check off tasks as you complete them, and your progress is saved automatically.
-* **"Why" Focus:** The plan emphasizes understanding the "why" behind concepts and technologies. Each section includes a "Why Analysis" to encourage deeper learning.
-* **Clear and Concise:** The interface is designed to be clean and user-friendly, making it easy to focus on your learning goals.
-* **Transparent Development:** The project's development is tracked on a public Kanban board, providing transparency into my workflow and progress.
+- **Interactive and Organized:** The study plan is broken down into months, weeks, and days, with collapsible sections for easy navigation.
+- **Task Management:** Each day includes a list of study items and practice tasks. You can check off tasks as you complete them, and your progress is saved automatically.
+- **"Why" Focus:** The plan emphasizes understanding the "why" behind concepts and technologies. Each section includes a "Why Analysis" to encourage deeper learning.
+- **Clear and Concise:** The interface is designed to be clean and user-friendly, making it easy to focus on your learning goals.
+- **Transparent Development:** The project's development is tracked on a public Kanban board, providing transparency into my workflow and progress.
 
 ## Installation
 
@@ -36,4 +36,4 @@ While this project is primarily for my personal use, I welcome feedback and sugg
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](License.md) file for details.
