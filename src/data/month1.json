@@ -1,0 +1,400 @@
+{
+  "title": "Month 1: Foundation and Front-End \"Why\"",
+  "focus": "Core JavaScript, React.js fundamentals, HTML/CSS mastery, and initial \"why\" analysis.",
+  "actions": [
+    "Deep dive into JavaScript fundamentals, focusing on understanding how the language works under the hood (closures, prototypes, event loop).",
+    "Build simple React.js projects, documenting your component design choices and the \"why\" behind them.",
+    "Master modern CSS layouts (Flexbox, Grid) and responsive design, understanding the trade-offs between different approaches.",
+    "Begin a \"Tech Decision Journal\": For every tech you learn, write down the pros and cons.",
+    "Start your GitHub, and begin to add well-documented projects."
+  ],
+  "whyQuestions": [
+    "Why is React.js component-based?",
+    "Why use Flexbox vs. Grid?",
+    "Why is JavaScript single-threaded?"
+  ],
+  "weeks": [
+    {
+      "title": "Week 1: Core JavaScript Fundamentals",
+      "days": [
+        {
+          "title": "Day 1: Variables, Data Types, and Operators",
+          "studyItems": [
+            "Review variable declaration (`var`, `let`, `const`).",
+            "Understand different data types (primitive and reference).",
+            "Learn about operators (arithmetic, comparison, logical).",
+            "Pay attention to type coercion and truthy/falsy values."
+          ],
+          "practiceTasks": [
+            "Write simple JavaScript programs that use variables, data types, and operators.",
+            "Experiment with type coercion and observe the results.",
+            "Solve basic coding challenges involving these concepts on platforms like freeCodeCamp."
+          ],
+          "whyItems": [
+            "Why does JavaScript have different ways to declare variables (`var` vs. `let` vs. `const`)?",
+            "Why does JavaScript have dynamic typing? What are the pros and cons?",
+            "Why does JavaScript have truthy and falsy values?"
+          ]
+        },
+        {
+          "title": "Day 2: Control Flow and Functions",
+          "studyItems": [
+            "Review conditional statements (`if/else`, `switch`).",
+            "Understand loops (`for`, `while`, `do...while`).",
+            "Learn about function declarations, function expressions, and arrow functions.",
+            "Explore function scope and closures."
+          ],
+          "practiceTasks": [
+            "Write JavaScript programs that use control flow statements and functions.",
+            "Build small projects involving decision-making and repetition (e.g., a simple number guessing game).",
+            "Practice writing reusable functions."
+          ],
+          "whyItems": [
+            "Why does JavaScript have different types of loops?",
+            "What are the benefits of using functions?",
+            "How do closures affect variable scope?"
+          ]
+        },
+        {
+          "title": "Day 3: Objects and Arrays",
+          "studyItems": [
+            "Review object literals, properties, and methods.",
+            "Learn about array methods (`map`, `filter`, `reduce`, etc.).",
+            "Understand the difference between primitive and reference types."
+          ],
+          "practiceTasks": [
+            "Write JavaScript programs that manipulate objects and arrays.",
+            "Build small projects involving data structures (e.g., a simple address book).",
+            "Practice using various array methods."
+          ],
+          "whyItems": [
+            "Why are objects and arrays important data structures?",
+            "What are the benefits of using array methods?",
+            "How does immutability relate to objects and arrays in JavaScript?"
+          ]
+        },
+        {
+          "title": "Day 4: The `this` Keyword and Prototypes",
+          "studyItems": [
+            "Learn about the different ways the `this` keyword behaves in JavaScript.",
+            "Understand the concept of prototypes and prototypal inheritance.",
+            "Read resources like \"You Don't Know JS: this & Object Prototypes\"."
+          ],
+          "practiceTasks": [
+            "Write JavaScript programs that use the `this` keyword in different contexts.",
+            "Experiment with prototypal inheritance by creating simple objects with methods.",
+            "Focus on understanding how `this` behaves in regular functions, arrow functions, and methods."
+          ],
+          "whyItems": [
+            "Why is the `this` keyword important in JavaScript?",
+            "How does prototypal inheritance differ from classical inheritance?",
+            "What are the benefits of using prototypes?"
+          ]
+        },
+        {
+          "title": "Day 5: Closures and the Event Loop",
+          "studyItems": [
+            "Learn about closures and how they work.",
+            "Understand the event loop and how asynchronous JavaScript works.",
+            "Explore resources like MDN Web Docs and Philip Roberts' \"What the heck is the event loop anyway?\" talk."
+          ],
+          "practiceTasks": [
+            "Write JavaScript programs that use closures (e.g., a function factory).",
+            "Experiment with asynchronous JavaScript using `setTimeout` and `setInterval`.",
+            "Try to visualize how the event loop processes tasks."
+          ],
+          "whyItems": [
+            "Why are closures important in JavaScript?",
+            "How does the event loop enable asynchronous programming?",
+            "What are some common use cases for closures and asynchronous JavaScript?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Week 2: HTML/CSS Mastery",
+      "days": [
+        {
+          "title": "Day 1: Semantic HTML",
+          "studyItems": [
+            "Review HTML5 semantic elements and best practices.",
+            "Understand the importance of using semantic HTML for accessibility and SEO.",
+            "Explore resources like MDN Web Docs on HTML5."
+          ],
+          "practiceTasks": [
+            "Refactor a simple web page to use semantic HTML5 elements.",
+            "Use the W3C Markup Validation Service to validate your HTML code.",
+            "Practice writing clean and well-structured HTML."
+          ],
+          "whyItems": [
+            "Why is semantic HTML important?",
+            "How does semantic HTML improve website accessibility?",
+            "What are the benefits of using semantic HTML for SEO?"
+          ]
+        },
+        {
+          "title": "Day 2: CSS Fundamentals",
+          "studyItems": [
+            "Review CSS selectors, properties, and values.",
+            "Understand the box model and how it affects layout.",
+            "Learn about different CSS units (px, em, rem, %)."
+          ],
+          "practiceTasks": [
+            "Create a simple web page and style it using CSS.",
+            "Experiment with different CSS selectors and properties.",
+            "Practice applying styles to different HTML elements."
+          ],
+          "whyItems": [
+            "How does CSS work with HTML to style web pages?",
+            "Why is the box model important for understanding CSS layout?",
+            "What are the different ways to apply CSS styles to HTML?"
+          ]
+        },
+        {
+          "title": "Day 3: Flexbox",
+          "studyItems": [
+            "Learn about the Flexbox layout module.",
+            "Understand the different Flexbox properties (e.g., `display: flex`, `flex-direction`, `justify-content`, `align-items`).",
+            "Explore resources like \"A Complete Guide to Flexbox\" on CSS-Tricks."
+          ],
+          "practiceTasks": [
+            "Create layouts using Flexbox.",
+            "Experiment with different Flexbox properties to achieve various layouts.",
+            "Practice centering elements both vertically and horizontally using Flexbox."
+          ],
+          "whyItems": [
+            "Why was Flexbox introduced?",
+            "How does Flexbox simplify layout compared to traditional methods?",
+            "What are some common use cases for Flexbox?"
+          ]
+        },
+        {
+          "title": "Day 4: CSS Grid",
+          "studyItems": [
+            "Learn about the CSS Grid layout module.",
+            "Understand the different Grid properties (e.g., `display: grid`, `grid-template-columns`, `grid-template-rows`, `grid-gap`).",
+            "Explore resources like \"A Complete Guide to Grid\" on CSS-Tricks."
+          ],
+          "practiceTasks": [
+            "Create layouts using CSS Grid.",
+            "Experiment with different Grid properties to achieve various layouts.",
+            "Practice creating complex grid structures with multiple rows and columns."
+          ],
+          "whyItems": [
+            "Why was CSS Grid introduced?",
+            "How does CSS Grid differ from Flexbox?",
+            "What are some common use cases for CSS Grid?"
+          ]
+        },
+        {
+          "title": "Day 5: Responsive Design",
+          "studyItems": [
+            "Learn about responsive design principles.",
+            "Understand the importance of creating websites that adapt to different screen sizes.",
+            "Explore media queries and how they work."
+          ],
+          "practiceTasks": [
+            "Create a simple responsive web page using media queries.",
+            "Test your web page on different devices or using browser developer tools.",
+            "Practice using different media query breakpoints."
+          ],
+          "whyItems": [
+            "Why is responsive design important?",
+            "How do media queries help create responsive websites?",
+            "What are some common responsive design patterns?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Week 3: Introduction to React.js",
+      "days": [
+        {
+          "title": "Day 1: React Basics",
+          "studyItems": [
+            "Learn about React.js components, props, and state.",
+            "Understand the concept of the virtual DOM.",
+            "Explore JSX syntax."
+          ],
+          "practiceTasks": [
+            "Create simple React components.",
+            "Pass data using props.",
+            "Experiment with updating the state of a component."
+          ],
+          "whyItems": [
+            "Why is React component-based?",
+            "How does the virtual DOM improve performance?",
+            "What are the benefits of using JSX?"
+          ]
+        },
+        {
+          "title": "Day 2: React Hooks",
+          "studyItems": [
+            "Learn about React Hooks (e.g., `useState`, `useEffect`).",
+            "Understand how hooks simplify state and lifecycle management.",
+            "Explore the React Hooks API documentation."
+          ],
+          "practiceTasks": [
+            "Use the `useState` hook to manage component state.",
+            "Use the `useEffect` hook to handle side effects.",
+            "Practice creating custom hooks."
+          ],
+          "whyItems": [
+            "Why were React Hooks introduced?",
+            "How do hooks improve code organization and reusability?",
+            "What are some common use cases for different hooks?"
+          ]
+        },
+        {
+          "title": "Day 3: React Forms and Events",
+          "studyItems": [
+            "Learn how to handle forms and events in React.",
+            "Understand controlled and uncontrolled components.",
+            "Explore event handling in React."
+          ],
+          "practiceTasks": [
+            "Create a simple form in React.",
+            "Handle form submissions and input changes.",
+            "Implement event listeners for user interactions."
+          ],
+          "whyItems": [
+            "How does React handle form data differently from traditional HTML forms?",
+            "What are the benefits of using controlled components?",
+            "How does event handling work in React?"
+          ]
+        },
+        {
+          "title": "Day 4: React Router",
+          "studyItems": [
+            "Learn about React Router for client-side routing.",
+            "Understand different routing concepts (e.g., routes, links, navigation).",
+            "Explore the React Router documentation."
+          ],
+          "practiceTasks": [
+            "Set up basic routing in a React application.",
+            "Create links to different pages.",
+            "Implement navigation between different routes."
+          ],
+          "whyItems": [
+            "Why is client-side routing important in single-page applications?",
+            "How does React Router help manage navigation?",
+            "What are the different types of routing available in React Router?"
+          ]
+        },
+        {
+          "title": "Day 5: React Project - Simple Counter",
+          "studyItems": [
+            "Build a simple counter application in React.",
+            "Practice using state, props, and event handling.",
+            "Focus on component structure and organization."
+          ],
+          "practiceTasks": [
+            "Implement a counter that can increment and decrement.",
+            "Display the current count value.",
+            "Add styling to the counter."
+          ],
+          "whyItems": [
+            "How can you break down the counter application into reusable components?",
+            "What are the different ways to manage the state of the counter?",
+            "How can you improve the user experience of the counter?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Week 4: Building a React.js Project and GitHub Setup",
+      "days": [
+        {
+          "title": "Day 1: Project Planning",
+          "studyItems": [
+            "Choose a simple project idea (e.g., to-do list, weather app).",
+            "Plan the project's features and functionality.",
+            "Sketch out a basic UI design."
+          ],
+          "practiceTasks": [
+            "Write a project proposal outlining the goals and scope.",
+            "Create a basic wireframe or mockup of the UI.",
+            "Break down the project into smaller tasks."
+          ],
+          "whyItems": [
+            "Why is project planning important?",
+            "How can you ensure your project is achievable within the given timeframe?",
+            "What are some common project management methodologies?"
+          ]
+        },
+        {
+          "title": "Day 2: Project Setup and Component Creation",
+          "studyItems": [
+            "Set up the project structure (components, pages, styles).",
+            "Create initial React components for the project.",
+            "Implement basic styling."
+          ],
+          "practiceTasks": [
+            "Create the necessary files and folders for the project.",
+            "Write the initial code for the components.",
+            "Apply basic CSS styles to the components."
+          ],
+          "whyItems": [
+            "Why is it important to have a well-organized project structure?",
+            "How can you ensure your components are reusable and maintainable?",
+            "What are some best practices for writing CSS?"
+          ]
+        },
+        {
+          "title": "Day 3: Data Fetching and State Management",
+          "studyItems": [
+            "If applicable, learn how to fetch data from an API.",
+            "Implement state management to handle data and user interactions.",
+            "Use the `useEffect` hook for data fetching and side effects."
+          ],
+          "practiceTasks": [
+            "Fetch data from a public API (e.g., weather data).",
+            "Store the fetched data in the component's state.",
+            "Update the UI based on the fetched data."
+          ],
+          "whyItems": [
+            "Why is it important to handle data fetching efficiently?",
+            "How can you choose the right state management solution for your project?",
+            "What are some common challenges in data fetching and how can you overcome them?"
+          ]
+        },
+        {
+          "title": "Day 4: User Interface and Interactions",
+          "studyItems": [
+            "Focus on building the user interface (UI) of the project.",
+            "Implement user interactions (e.g., button clicks, form submissions).",
+            "Ensure the UI is responsive and user-friendly."
+          ],
+          "practiceTasks": [
+            "Create a visually appealing and intuitive UI.",
+            "Handle user input and interactions effectively.",
+            "Test the UI on different screen sizes."
+          ],
+          "whyItems": [
+            "Why is UI/UX design important for web applications?",
+            "How can you ensure your UI is accessible to all users?",
+            "What are some common UI design patterns?"
+          ]
+        },
+        {
+          "title": "Day 5: GitHub Setup and Documentation",
+          "studyItems": [
+            "Create a GitHub repository for your project.",
+            "Commit your code and push it to the repository.",
+            "Write a detailed README file explaining your project."
+          ],
+          "practiceTasks": [
+            "Set up a GitHub repository and connect it to your local project.",
+            "Write clear and concise commit messages.",
+            "Create a README that includes a project description, installation instructions, and usage examples."
+          ],
+          "whyItems": [
+            "Why is version control important for software development?",
+            "How can you write effective commit messages?",
+            "What are the essential elements of a good README file?"
+          ]
+        }
+      ]
+    }
+  ]
+}
