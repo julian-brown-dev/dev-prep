@@ -1,0 +1,42 @@
+.month-page {
+  font-family: sans-serif;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.month-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.month-page h2 {
+  margin-bottom: 15px;
+}
+
+.day-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  display: block; /* Make the whole card clickable */
+  transition: background-color 0.3s ease;
+}
+
+.day-card:hover {
+  background-color: #e0e0e0;
+}
+
+.back-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff; /* Example blue color */
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

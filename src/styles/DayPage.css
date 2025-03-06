@@ -1,0 +1,38 @@
+.day-page {
+  font-family: sans-serif;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.day-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.day-page h2 {
+  margin-bottom: 15px;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  margin-top: 10px;
+}
+
+.task-item {
+  margin-bottom: 8px;
+}
+
+.back-link {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff; /* Example blue color */
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

@@ -16,9 +16,29 @@
   "weeks": [
     {
       "title": "Week 1: Core JavaScript Fundamentals",
+      "focus": "Master the foundational concepts of JavaScript, including variables, data types, operators, control flow, and functions.",
+      "actions": [
+        "Complete all practice exercises and challenges.",
+        "Start building a simple JavaScript project (e.g., a calculator or a quiz).",
+        "Document your learning in your Tech Decision Journal."
+      ],
+      "questions": [
+        "What are the different ways to declare variables in JavaScript, and why might you choose one over another?",
+        "How do functions work in JavaScript, and why are they important?",
+        "What are some common use cases for different data types in JavaScript?"
+      ],
       "days": [
         {
           "title": "Day 1: Variables, Data Types, and Operators",
+          "focus": "Understand the building blocks of JavaScript: variables, data types, and operators.",
+          "actions": [
+            "Experiment with different data types and operators in the console.",
+            "Solve coding challenges related to variables and operators on FreeCodeCamp."
+          ],
+          "questions": [
+            "Why does JavaScript have dynamic typing?",
+            "What are the differences between `var`, `let`, and `const`?"
+          ],
           "studyItems": [
             "Review variable declaration (`var`, `let`, `const`).",
             "Understand different data types (primitive and reference).",
@@ -38,6 +58,15 @@
         },
         {
           "title": "Day 2: Control Flow and Functions",
+          "focus": "Master control flow and functions to write structured and reusable JavaScript code.",
+          "actions": [
+            "Practice writing functions with different parameters and return values.",
+            "Build a small project that involves decision-making and loops (e.g., a number guessing game)."
+          ],
+          "questions": [
+            "What are the benefits of using functions in programming?",
+            "How do different types of loops (for, while, do...while) differ in their use cases?"
+          ],
           "studyItems": [
             "Review conditional statements (`if/else`, `switch`).",
             "Understand loops (`for`, `while`, `do...while`).",
@@ -57,6 +86,15 @@
         },
         {
           "title": "Day 3: Objects and Arrays",
+          "focus": "Explore objects and arrays, the fundamental data structures in JavaScript.",
+          "actions": [
+            "Practice manipulating objects and arrays using built-in methods.",
+            "Build a small project that involves storing and retrieving data in objects and arrays (e.g., a simple inventory system)."
+          ],
+          "questions": [
+            "Why are objects and arrays important in programming?",
+            "What are the advantages of using array methods like `map`, `filter`, and `reduce`?"
+          ],
           "studyItems": [
             "Review object literals, properties, and methods.",
             "Learn about array methods (`map`, `filter`, `reduce`, etc.).",
@@ -75,6 +113,15 @@
         },
         {
           "title": "Day 4: The `this` Keyword and Prototypes",
+          "focus": "Deepen your understanding of object-oriented programming in JavaScript by learning about the `this` keyword and prototypes.",
+          "actions": [
+            "Experiment with the `this` keyword in different contexts (global, function, object).",
+            "Create simple objects with methods and explore how prototypal inheritance works."
+          ],
+          "questions": [
+            "Why is the `this` keyword important in JavaScript?",
+            "How does prototypal inheritance differ from classical inheritance?"
+          ],
           "studyItems": [
             "Learn about the different ways the `this` keyword behaves in JavaScript.",
             "Understand the concept of prototypes and prototypal inheritance.",
@@ -93,6 +140,15 @@
         },
         {
           "title": "Day 5: Closures and the Event Loop",
+          "focus": "Explore advanced JavaScript concepts like closures and the event loop to understand how asynchronous code works.",
+          "actions": [
+            "Practice writing functions that utilize closures.",
+            "Experiment with asynchronous JavaScript using `setTimeout` and `setInterval`."
+          ],
+          "questions": [
+            "How do closures work in JavaScript?",
+            "What is the event loop, and how does it handle asynchronous operations?"
+          ],
           "studyItems": [
             "Learn about closures and how they work.",
             "Understand the event loop and how asynchronous JavaScript works.",
