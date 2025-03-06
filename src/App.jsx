@@ -1,21 +1,23 @@
+import MainPage from "./pages/MainPage";
+import MonthPage from "./pages/MonthPage";
+import WeekPage from "./pages/WeekPage";
+import DayPage from "./pages/DayPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router";
 import "./styles/App.css";
-import CollapsibleSection from "./components/CollapsibleSection";
-import ContentSection from "./components/ContentSection";
-import TaskList from "./components/TaskList";
 
 function App() {
   return (
-    <>
-      <CollapsibleSection title="week 1: test">
-        <ContentSection title="Study:">
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-          </ul>
-          <TaskList title="task title" tasks={["task 1", "task 2"]} />
-        </ContentSection>
-      </CollapsibleSection>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/month/:monthId" element={<MonthPage />} />
+        <Route path="/month/:monthId/week/:weekId" element={<WeekPage />} />
+        <Route
+          path="/month/:monthId/week/:weekId/day/:dayId"
+          element={<DayPage />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
